@@ -1,0 +1,31 @@
+{
+  "name": "bea-backend",
+  "version": "1.0.0",
+  "description": "System of control gym",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusfurlan7/BEA-BackEnd.git"
+  },
+  "author": "Matheus Furlan",
+  "bugs": {
+    "url": "https://github.com/matheusfurlan7/BEA-BackEnd/issues"
+  },
+  "homepage": "https://github.com/matheusfurlan7/BEA-BackEnd#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
